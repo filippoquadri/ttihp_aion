@@ -18,8 +18,8 @@ module tt_um_example (
 
   // Placeholder logic to exercise the CI flow: a bank of NUM_GEN independent
   // 32-bit Fibonacci LFSRs. Structurally trivial, but ~2.5k flops of area.
-  localparam integer NUM_GEN = 64;
-  localparam integer LFSR_W = 32;
+  localparam integer NUM_GEN = 32;
+  localparam integer LFSR_W  = 32;
 
   wire [7:0] seed = ui_in ^ uio_in;
 
